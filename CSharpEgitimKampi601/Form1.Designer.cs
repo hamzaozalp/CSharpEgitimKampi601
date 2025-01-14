@@ -213,7 +213,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1129, 297);
+            this.dataGridView1.Size = new System.Drawing.Size(680, 336);
             this.dataGridView1.TabIndex = 16;
             // 
             // btnGetByCustomerId
@@ -232,7 +232,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1477, 554);
+            this.ClientSize = new System.Drawing.Size(1028, 526);
             this.Controls.Add(this.btnGetByCustomerId);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnCustomerUpdate);
