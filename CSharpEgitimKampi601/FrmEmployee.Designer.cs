@@ -90,6 +90,7 @@
             this.btnCreate.TabIndex = 44;
             this.btnCreate.Text = "Ekle";
             this.btnCreate.UseVisualStyleBackColor = false;
+            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
             // 
             // btnList
             // 
@@ -101,6 +102,7 @@
             this.btnList.TabIndex = 43;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = false;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // txtEmployeeSalary
             // 
@@ -227,6 +229,7 @@
             this.Controls.Add(this.label1);
             this.Name = "FrmEmployee";
             this.Text = "FrmEmployee";
+            this.Load += new System.EventHandler(this.FrmEmployee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
